@@ -7,5 +7,5 @@ pdf2image>=1.16.3
 opencv-python-headless>=4.9.0.80
 numpy>=1.26.4
 pydantic-settings>=2.2.1
-sqlalchemy>=2.0.0  # Allow latest 2.x version
-databases[postgresql]>=0.11.0  # Explicitly requires SQLAlchemy 2.x
+sqlalchemy==2.0.25
+databases[postgresql]==0.11.0
